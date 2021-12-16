@@ -14,6 +14,9 @@
 body {
     font-family: Roboto, sans-serif;
     color: var(--main-black-color);
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    background-color: var(--main-white-color);
 }
 
 .link {
@@ -37,8 +40,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
-}
+    }
 .header-logo-web {
     color: var(--main-accent-color);
 }
@@ -49,7 +51,6 @@ body {
 } */
 .header-nav-list-item {
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -67,7 +68,6 @@ body {
     color: var(--header-contacts-list-color);
 
     font-weight: 500;
-    font-size: 14px;
     line-height: 1.14;
     letter-spacing: 0.02em;
 }
@@ -101,8 +101,7 @@ body {
     font-size: 36px;
     line-height: 1.16;
     text-align: center;
-    letter-spacing: 0.03em;
-
+    
 }
 .benefits {
     background-color: var(--main-white-color);
@@ -110,16 +109,13 @@ body {
 .benefits-title {
     font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 .benefits-text {
-    color: #757575;
+    color: var(--header-contacts-list-color);
 
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-}
+    }
 .our-work {
     background-color: var(--main-white-color);
 }
@@ -136,14 +132,12 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
-}
+    }
 .our-team-text {
     color: #757575;
 
     font-size: 16px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     }
 .footer {
     background-color: var(--background-color-hero);
@@ -153,8 +147,7 @@ body {
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
-}
+    }
 .footer-logo-web {
     color: var(--main-accent-color);
 }
@@ -169,10 +162,8 @@ body {
     color: var(--main-white-color);
 
     font-style: normal;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
-}
+    }
 
 .footer-adress-list-item .link {
     color: var(--footer-address-link-color);
@@ -192,8 +183,7 @@ body {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
-    letter-spacing: 0.03em;
-}
+    }
 
 .portfolio-button-list-item:hover,
 .portfolio-button-list-item:focus {
@@ -210,5 +200,4 @@ body {
 
     font-size: 16px;
     line-height: 1.87;
-    letter-spacing: 0.03em;
-}
+    }
