@@ -17,13 +17,18 @@ body {
 	letter-spacing: 0.03em;
 	background-color: var(--main-white-color);
 }
-
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
 .link {
 	text-decoration: none;
 	color: inherit;
 }
 .list {
 	list-style-type: none;
+	margin: 0;
+	padding: 0;
 }
 .button {
 	font-family: inherit;
@@ -76,6 +81,7 @@ body {
 }
 .hero {
 	background-color: var(--background-color-hero);
+	text-align: center;
 }
 .hero-title {
 	color: var(--main-white-color);
@@ -83,9 +89,11 @@ body {
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
-	text-align: center;
 	letter-spacing: 0.06em;
 	text-transform: uppercase;
+
+	margin-top: 0;
+	margin-bottom: 30px;
 }
 .hero-button {
 	color: var(--main-white-color);
